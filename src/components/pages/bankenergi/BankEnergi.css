@@ -1,0 +1,66 @@
+.bank--section {
+    padding: 10px 30px;
+    height: 100%;
+    overflow-y: auto;
+   
+    
+}
+
+
+.bank--wrapper {
+    width : 100%;
+    height: 100%;
+    display: grid;
+    gap : 10px;
+    grid-template-columns : repeat(1,1fr);
+    grid-template-rows : repeat(6, 1fr);
+    
+    
+}
+
+.bank--wrapper > div {
+    background: #fff;
+    border-radius: 5px;
+    padding:5px 0;
+    min-height: 600px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 20px;
+    position: relative;
+    border : 1.5px solid black;
+    
+}
+
+.bank--wrapper > div > h4 {
+    font-size:2rem;
+    font-weight:400;
+
+}
+
+.button--section {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+
+.forwardBack {
+    color : #fff;
+    height:40px;
+    width : 40px;
+    
+    background: rgb(118, 118, 236);
+    padding: 10px;
+    border-radius:5px;
+    border : 1.5px solid black;
+}
+
+.forwardBack:hover {
+    background : rgb(236, 151, 22)
+}
